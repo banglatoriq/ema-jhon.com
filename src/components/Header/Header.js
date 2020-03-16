@@ -2,16 +2,18 @@ import React from 'react';
 import logo from '../../images/logo.png';
 import './Header.css';
 
+
 const Header = () => {
     return (
         <div className="header">
-           <a href="/"><img src={logo} alt=""/></a>
+            <a href="/"><img src={logo} alt="" /></a>
             <nav>
                 <a href="/shop">Shop</a>
                 <a href="/review">Order Review</a>
-                <a href="/manage">Manage Inventory Here</a>
+                <a href="/manage-inventory">Manage Inventory Here</a>
             </nav>
         </div>
+
     );
 };
 
